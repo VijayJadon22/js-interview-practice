@@ -37,10 +37,26 @@
 
 //***** */
 
-let arr = [10, 9, 6, 2, 12];
+// let arr = [10, 9, 6, 2, 12];
 
-arr.sort((a, b) => b - a);
-console.log(arr);
+// arr.sort((a, b) => b - a);
+// console.log(arr);
+
+
+// *****
+// Example for map function
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let arr1 = arr.map(ele => ele ** 2);
+// console.log(arr1);
+
+
+// Question on map function if we do ele>100 what will be the output
+let arr = [1, 2, 3, 4, 5, 6];
+
+let arr1 = arr.map(ele => ele > 100);
+console.log(arr1);
 
 
 

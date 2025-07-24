@@ -217,3 +217,57 @@
 // ===	Reference (strict)	false
 // ==	Reference (loose)	false
 // 🔍 Even loose equality (==) won't coerce objects into being equal—it still checks by reference.
+
+
+
+
+
+
+
+
+
+//****** */
+// 🧱 Primitive Data Types
+// These are the basic building blocks. They’re stored by value, which means each variable holds its own copy.
+
+// 🔹 Characteristics
+// Immutable (can’t be changed directly)
+// Compared by value *********************************
+// Stored in stack memory
+
+// Fast and simple
+
+// ✅ Examples:
+// Type	Example	Description
+// Number	42, 3.14	Numeric values
+// String	"Vijay"	Sequence of characters
+// Boolean	true, false	Logical true or false
+// null	null	Intentional absence of value
+// undefined	undefined	Variable declared but not set
+// Symbol	Symbol("id")	Unique and immutable identifier
+// BigInt	123n	Large integers beyond Number limits
+
+
+
+// 🧩 Non-Primitive (Reference) Data Types
+// These are complex structures, stored by reference—you hold a pointer to the actual data in memory.
+// 🔸 Characteristics
+// Mutable (can be changed)
+// Compared by reference //******************** */
+// Stored in heap memory
+// Powerful but sometimes tricky
+
+// ✅ Examples:
+// Type	Example	Description
+// Object	{name: "Vijay", age: 25}	Key-value pair collection
+// Array	[1, 2, 3]	Ordered collection
+// Function	function greet() {}	Executable block of code
+// Date	new Date()	Date and time object
+// RegExp	/abc/	Regular expression object
+// Map/Set	new Map(), new Set()	Collections with unique keys/values
+// 🔍 Quick Recap
+// Feature	Primitive	Non-Primitive
+// Stored as	Value	Reference (address)
+// Mutability	Immutable	Mutable
+// Compared using	Value comparison	Reference comparison
+// Examples	42, "hello"	{}, [], ()=>{}

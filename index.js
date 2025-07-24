@@ -158,7 +158,7 @@
 
 //**** */
 // How to remove the duplicate values from an array
-let a = [1, 2, 3, 81, 4, 78, 78, 81];
+// let a = [1, 2, 3, 81, 4, 78, 78, 81];
 
 //1method using set
 // const newArr = [...new Set(a)];
@@ -166,5 +166,28 @@ let a = [1, 2, 3, 81, 4, 78, 78, 81];
 
 
 // //using filter method
-// let b = a.filter((ele, index, self) => self.indexOf(ele) === index);
+// let b = a.filter((ele, index, arr) => arr.indexOf(ele) === index); //as indexOf returns the first occurence index
 // console.log(b);
+
+
+
+
+
+//**** */
+// What does .length property return on functions
+// function abc(a,b,c) {
+    
+// }
+
+// function pqr(a=0,b,c) {
+    
+// }
+// console.log(abc.length, pqr.length); //3 0
+
+//explanation:- The .length property of a function returns the number of parameters before the first one with a default value.
+
+// Function Signature	.length Value
+// function f(a, b, c)	//3
+// function f(a = 0, b, c)	//0
+// function f(a, b = 1, c)	//1
+// function f(a, b, c = 3)	//2

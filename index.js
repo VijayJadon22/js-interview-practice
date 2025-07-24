@@ -7,10 +7,10 @@
 // console.log(arr3.length);
 
 
-let arr = [1, 18, 9, 81, 98, 124];
+// let arr = [1, 18, 9, 81, 98, 124];
 
 
-arr.sort((a, b) => a - b);
+// arr.sort((a, b) => a - b);
 
 
 // for (let i = 0; i < arr.length; i++){
@@ -24,14 +24,25 @@ arr.sort((a, b) => a - b);
 // }
 // console.log(arr);
 
+// ******
 
-if ([]) {
-    console.log("Vijay is absent");
-} else {
-    console.log("Vijay is present");
-}
+// if ([]) {
+//     console.log("Vijay is absent");
+// } else {
+//     console.log("Vijay is present");
+// }
 
-let arr1 = [, , ,];
-console.log(arr1.length);
+// let arr1 = [, , ,];
+// console.log(arr1.length);
+
+//***** */
+
+let arr = [10, 9, 6, 2, 12];
+
+arr.sort((a, b) => b - a);
+console.log(arr);
+
+
+
 
 

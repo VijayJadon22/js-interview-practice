@@ -353,4 +353,12 @@
 
 
 // *******
+// let obj = {
+//     a: {
+//         b:undefined
+//     }
+// }
+
+// console.log(obj.a?.b?.c?.d??"vijay"); //Nullish coalescing operator (??)
+// // Returns the right-hand value if the left-hand is undefined or null.
 

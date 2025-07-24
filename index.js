@@ -53,10 +53,17 @@
 
 
 // Question on map function if we do ele>100 what will be the output
+// let arr = [1, 2, 3, 4, 5, 6,102];
+
+// let arr1 = arr.map(ele => ele > 100);
+// console.log(arr1);
+
+//Question on fiter method if we do ele>100 what will be the output
 let arr = [1, 2, 3, 4, 5, 6,102];
 
-let arr1 = arr.map(ele => ele > 100);
+let arr1 = arr.filter(ele => ele > 100);
 console.log(arr1);
+
 
 
 

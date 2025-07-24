@@ -186,8 +186,34 @@
 
 //explanation:- The .length property of a function returns the number of parameters before the first one with a default value.
 
-// Function Signature	.length Value
-// function f(a, b, c)	//3
-// function f(a = 0, b, c)	//0
-// function f(a, b = 1, c)	//1
-// function f(a, b, c = 3)	//2
+// Function Signature	       .length Value
+// function f(a, b, c)	           //3
+// function f(a = 0, b, c)	       //0
+// function f(a, b = 1, c)	       //1
+// function f(a, b, c = 3)	       //2
+
+
+
+
+
+//**** */
+// type checking of empty array with double equals to and triple equals to
+
+// console.log([] === []);
+// console.log([] == []);
+
+// In JavaScript, arrays are objects, and object comparisons follow reference equality, not value equality.
+
+// So:
+// [] === [] // false
+// [] == []  // false
+// Each [] creates a new array object in memory.
+// Even though they look identical, they have different memory addresses.
+
+// JavaScript sees them as two completely different things.
+
+// 📦 Reference vs. Value
+// Comparison Type	What’s Compared	Result
+// ===	Reference (strict)	false
+// ==	Reference (loose)	false
+// 🔍 Even loose equality (==) won't coerce objects into being equal—it still checks by reference.

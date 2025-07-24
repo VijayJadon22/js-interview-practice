@@ -22,7 +22,13 @@ arr.sort((a, b) => a - b);
 //         }
 //     }
 // }
+// console.log(arr);
 
 
+if ([]) {
+    console.log("Vijay is absent");
+} else {
+    console.log("Vijay is present");
+}
 
-console.log(arr);
+

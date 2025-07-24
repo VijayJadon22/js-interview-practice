@@ -129,3 +129,26 @@
 // }
 // console.log(a);
 
+
+
+
+//**** */
+// what are the ways to create an array object
+
+//1method directly assign values
+// let a = [1, 2, 3];
+
+// //2method by using Using the Array Constructor, using new keyword creating a new object
+// let b = new Array(2, 3, 4);
+// let c = new Array(3); //if we pass single number then create array of that many empty items
+// console.log(b);
+// console.log(c);
+
+//3method from string using Array.from()
+// let strArr = Array.from("vijay");
+// console.log(strArr); //[ 'v', 'i', 'j', 'a', 'y' ]
+
+//4method using Array.of
+// let a = Array.of(1, 2, 3);
+// console.log(a); //[1,2,3]
+

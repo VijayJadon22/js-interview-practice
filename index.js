@@ -69,14 +69,13 @@
 
 
 
-
+//**** */
 //Difference between slice and splice method
 
-let arr = [1, 2, 3, 4, 5, 6];
+// let arr = [1, 2, 3, 4, 5, 6];
 // console.log(arr.slice(0,3)); //1 2 3 will print from 0 index to 2, 3 index wont be counted
 
 // console.log(arr.slice(2)); // will slice the array from 2 index all the ele will be printed starting from 2index
-
 
 // let newArr = arr.slice(0, 3);
 // console.log(newArr);
@@ -91,3 +90,16 @@ let arr = [1, 2, 3, 4, 5, 6];
 // console.log(arr2); // splice returns the deleted values inside an array
 
 
+
+
+//**** */
+// Does slice and splice make changes in the original array itself
+
+// let a= [1, 2, 3, 4, 5];
+// let b = a.slice(1, 3);
+// console.log(b); // b =[2,3] as slice will return the new array
+// console.log(a); // a=[1,2,3,4,5] but a will be same, slice is non destructive
+
+// let c = a.splice(1, 1);
+// console.log(c); //c=[2] as splice returns the deleted items in new array or empty array
+// console.log(a); //a=[1,3,4,5] 2 is not included slice makes changes in the original array splice is destructive

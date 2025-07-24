@@ -306,4 +306,17 @@
 
 
 // console.log(typeof (NaN)); //Number
+//  console.log(typeof ([])); //object
+
+// console.log(NaN === NaN);
+// console.log(NaN == NaN);
+
+
+
+//********** */
+//Pre and post increment
+// var a = 10;
+// console.log(++a); //11
+// console.log(a++); //11
+// console.log(a); //12
 

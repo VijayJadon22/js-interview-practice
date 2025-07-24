@@ -68,23 +68,26 @@
 
 
 
+
+
 //Difference between slice and splice method
 
 let arr = [1, 2, 3, 4, 5, 6];
-console.log(arr.slice(0,3)); //1 2 3 will print from 0 index to 2, 3 index wont be counted
+// console.log(arr.slice(0,3)); //1 2 3 will print from 0 index to 2, 3 index wont be counted
 
-console.log(arr.slice(2)); // will slice the array from 2 index all the ele will be printed starting from 2index
-
-
-let newArr = arr.slice(0, 3);
-console.log(newArr);
+// console.log(arr.slice(2)); // will slice the array from 2 index all the ele will be printed starting from 2index
 
 
-// array.splice(start, deleteCount, item1, item2, ...)
-console.log(arr.splice(1, 2, 4)); // 2 3 will print the items removed
-const remainingValues = arr.splice(1, 2, 89, 79);
-console.log(arr);
+// let newArr = arr.slice(0, 3);
+// console.log(newArr);
 
 
+// // array.splice(start, deleteCount, item1, item2, ...)
+// console.log(arr.splice(1, 2, 4)); // 2 3 will print the items removed
+// const remainingValues = arr.splice(1, 2, 89, 79);
+// console.log(arr);
+
+// let arr2 = arr.splice(1, 0);
+// console.log(arr2); // splice returns the deleted values inside an array
 
 

@@ -152,3 +152,19 @@
 // let a = Array.of(1, 2, 3);
 // console.log(a); //[1,2,3]
 
+
+
+
+
+//**** */
+// How to remove the duplicate values from an array
+let a = [1, 2, 3, 81, 4, 78, 78, 81];
+
+//1method using set
+// const newArr = [...new Set(a)];
+// console.log(newArr);
+
+
+// //using filter method
+// let b = a.filter((ele, index, self) => self.indexOf(ele) === index);
+// console.log(b);

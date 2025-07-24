@@ -280,25 +280,30 @@
 
 
 
-//************* */
-//given a string capitalize the first letter of each word and also print each word in new line
-let str = "this is vijay jadon";
-let newStr = "";
+// //************* */
+// //given a string capitalize the first letter of each word and also print each word in new line
+// let str = "this is vijay jadon";
+// let newStr = "";
 
-function capitalize(str) {
-    let words = str.split(" ");
-    for (let word of words) {
-        let split = word.split("");
-        split[0] = split[0].toUpperCase();
-        if (words.indexOf(word) === 0) {
-            newStr += split.join("");
-        } else {
-            newStr += "\n" + split.join("");
-        }
-    }
-}
+// function capitalize(str) {
+//     let words = str.split(" ");
+//     for (let word of words) {
+//         let split = word.split("");
+//         split[0] = split[0].toUpperCase();
+//         if (words.indexOf(word) === 0) {
+//             newStr += split.join("");
+//         } else {
+//             newStr += "\n" + split.join("");
+//         }
+//     }
+// }
 
-capitalize(str);
+// capitalize(str);
 
-console.log(newStr);
+// console.log(newStr);
+
+
+
+
+// console.log(typeof (NaN)); //Number
 

@@ -176,11 +176,11 @@
 //**** */
 // What does .length property return on functions
 // function abc(a,b,c) {
-    
+
 // }
 
 // function pqr(a=0,b,c) {
-    
+
 // }
 // console.log(abc.length, pqr.length); //3 0
 
@@ -271,3 +271,34 @@
 // Mutability	Immutable	Mutable
 // Compared using	Value comparison	Reference comparison
 // Examples	42, "hello"	{}, [], ()=>{}
+
+
+
+
+
+
+
+
+
+//************* */
+//given a string capitalize the first letter of each word and also print each word in new line
+let str = "this is vijay jadon";
+let newStr = "";
+
+function capitalize(str) {
+    let words = str.split(" ");
+    for (let word of words) {
+        let split = word.split("");
+        split[0] = split[0].toUpperCase();
+        if (words.indexOf(word) === 0) {
+            newStr += split.join("");
+        } else {
+            newStr += "\n" + split.join("");
+        }
+    }
+}
+
+capitalize(str);
+
+console.log(newStr);
+

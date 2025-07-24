@@ -58,15 +58,32 @@
 // let arr1 = arr.map(ele => ele > 100);
 // console.log(arr1);
 
+
+
 //Question on fiter method if we do ele>100 what will be the output
-let arr = [1, 2, 3, 4, 5, 6,102];
+// let arr = [1, 2, 3, 4, 5, 6,102];
 
-let arr1 = arr.filter(ele => ele > 100);
-console.log(arr1);
-
-
+// let arr1 = arr.filter(ele => ele > 100);
+// console.log(arr1);
 
 
+
+//Difference between slice and splice method
+
+let arr = [1, 2, 3, 4, 5, 6];
+console.log(arr.slice(0,3)); //1 2 3 will print from 0 index to 2, 3 index wont be counted
+
+console.log(arr.slice(2)); // will slice the array from 2 index all the ele will be printed starting from 2index
+
+
+let newArr = arr.slice(0, 3);
+console.log(newArr);
+
+
+// array.splice(start, deleteCount, item1, item2, ...)
+console.log(arr.splice(1, 2, 4)); // 2 3 will print the items removed
+const remainingValues = arr.splice(1, 2, 89, 79);
+console.log(arr);
 
 
 

@@ -320,3 +320,37 @@
 // console.log(a++); //11
 // console.log(a); //12
 
+
+
+
+
+// *************
+// if ([]) {
+//     console.log("Vijay is present");  // as emptry array is turthy value
+// } else {
+//     console.log("Vijay is absent");
+// }
+
+
+// if ([]===true) {
+//     console.log("Vijay is present");
+// } else {
+//     console.log("Vijay is absent"); //compraing primitive with non primitive
+// }
+
+
+// if ([]===true) {
+//     console.log("Vijay is present");
+// } else {
+//     console.log("Vijay is absent");//compraing primitive with non primitive
+// }
+
+
+
+
+
+
+
+
+// *******
+

@@ -393,3 +393,24 @@ let obj = {
 
 // const func = outerFunc(90);
 // func();
+
+
+// let str = "pqrst";
+
+// function reverse(str) {
+//     let chars = str.split("");
+//     let i = 0;
+//     let j = chars.length - 1;
+
+//     while (i < j) {
+//         let temp = chars[i];
+//         chars[i] = chars[j];
+//         chars[j] = temp;
+//         i++; j--;
+//     }
+//     let joined=chars.join("");
+//     return joined;
+// }
+
+// let newStr = reverse(str);
+// console.log(newStr);

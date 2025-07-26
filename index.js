@@ -353,12 +353,43 @@
 
 
 // *******
-// let obj = {
-//     a: {
-//         b:undefined
-//     }
-// }
+let obj = {
+    a: {
+        b:undefined
+    }
+}
 
 // console.log(obj.a?.b?.c?.d??"vijay"); //Nullish coalescing operator (??)
 // // Returns the right-hand value if the left-hand is undefined or null.
 
+// console.log(obj.a??"vijay"); // as obj.a is not undefined or null { b: undefined } will be logged
+
+
+// var abc = 25;
+
+// if (function f(){}) {
+//     abc=abc+typeof f
+// }
+
+// console.log(abc);
+
+
+
+// var a = 10;
+// var a = 5;
+// console.log(a);
+
+
+//************ */
+// saw the concept of closures in javascript
+// function outerFunc(num) {
+//     let a = num;
+//     console.log("Outer a: ", a);
+//     return function innerFunc(){
+//         let b = 20;
+//         console.log("Inner: ", a, b);
+//     }
+// }
+
+// const func = outerFunc(90);
+// func();

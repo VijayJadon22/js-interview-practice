@@ -414,3 +414,7 @@ let obj = {
 
 // let newStr = reverse(str);
 // console.log(newStr);
+
+
+let a = 10;
+let b="Abhishek";

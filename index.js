@@ -418,3 +418,4 @@ let obj = {
 
 let a = 10;
 let b="Abhishek";
+console.log(a+b);

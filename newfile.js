@@ -1,3 +1,4 @@
 let c=2;
 let b="2";
 console.log(c==b);
+console.log(c===b);
